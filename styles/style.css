@@ -1,0 +1,123 @@
+.header-title{
+    font-weight: 700;
+    font-size: 65px;
+    width: 525px;
+    height: 228px;
+}
+.header-description{
+    font-weight: 400;
+    font-size: 16px;
+    width: 494px;
+    height: 80px;
+}
+.btn-primary{
+    font-weight: 600;
+    font-size: 20px;
+    background-color: orangered;
+    color: aliceblue;
+    width: 150px;
+    height: 50px;
+    border: 0;
+}
+header{
+    background-image: url(../images/banner/banner2.png);
+    height: 800px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.header-content{
+    float: right;
+    padding-top: 170px;
+    text-align: right;
+    padding-right: 200px;
+}
+/* failer section */
+.failer-right h3{
+    font-size: 42px;
+}
+.failer-right li{
+    margin-bottom: 8px;
+}
+.failer-section{
+    display: flex;
+    align-items: center;
+    margin: 130px 230px;
+    justify-content: space-between;
+}
+.failer-right{
+    width: 416px;
+}
+/* plan section styles */
+.plan-section{
+    margin: 0 230px;
+    margin-bottom: 125px;
+}
+.plan-section h3{
+    font-size: 42px;
+    text-align: center;
+}
+.plan-item{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+.plan-item h4{
+    font-size: 30px;
+}
+.plan-item p{
+    font-size: 20px;
+}
+/* bottom image styles */
+.bottom-image{
+    height: 300px;
+    margin: 0 230px 130px 230px;
+    background-image: url(../images/watch.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bottom-image-sub{
+    padding-top: 60px;
+    padding-left: 60px;
+}
+.bottom-image h3{
+    font-size: 42px;
+}
+.bottom-image button{
+    font-size: 20px;
+    height: 64px;
+    width: 150px;
+    color: orangered;
+}
+/* footer styles */
+footer{
+    height: 577px;
+    background-color: black;
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer-left{
+    width: 400px;
+    height: 317px;
+    padding-left: 230px;
+}
+.footer-left h3{
+    font-size:42px;
+}
+.footer-right{
+    width: 325px;
+    height: 204px;
+    text-align: center;
+}
+.footer-right input{
+    height: 30px;
+}
+.footer-right p{
+    font-size: 30px;
+}
+.footer-right button{
+    height: 35px;
+    font-size: 20px;
+    color: orangered;
+}
